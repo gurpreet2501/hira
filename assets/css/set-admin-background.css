@@ -1,0 +1,19 @@
+body {
+
+    background: url("/assets/uploads/headerbg.jpg");
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-size: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.auth__forms_container {
+
+    background: rgba(255,255,255,.85);
+    border-radius: 7px;
+    padding: 29px;
+
+}
