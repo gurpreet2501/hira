@@ -33,9 +33,9 @@ class HR extends CI_Controller {
 	{
 			
 			$crud = new grocery_CRUD();
-			$crud->columns('username','email','phone');
-			$crud->add_fields('username','email','phone','role','password','activated');
-			$crud->edit_fields('username','email','phone','role','password');
+			$crud->columns('name','username','email','phone');
+			$crud->add_fields('name','username','email','phone','role','password','activated');
+			$crud->edit_fields('name','username','email','phone','role','password');
 			$crud->set_theme('bootstrap');
 			$crud->where('role','EMPLOYEE');
 			$crud->field_type('activated','hidden', 1);
